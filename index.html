@@ -13,9 +13,8 @@
 <body>
   <h2 class="head-name">Поиск людей в соц.сети Вконтакте</h2>
   <div class="get">    
-    <div class="input-wrap city-input__wrap">
-      <label for="first-name">Введите имя</label>
-      <input type="text" size="20" id="first-name" name="name">
+    <div class="input-wrap name-input__wrap">
+      <input type="text" size="20" id="first-name" name="name" placeholder="Введите имя">
     </div>
     <div class="input-wrap data-radio">
         <span>Дата рождения известна?</span>
@@ -62,7 +61,7 @@
       </select>
       </div>
       <div class="input-wrap birth_day-input">
-        <label for="birth_month">День рождения</label>
+        <label for="birth_month">Месяц рождения</label>
         <select id="birth_month">
           <option value="1">Январь</option>
           <option value="2">Февраль</option>  
@@ -83,8 +82,10 @@
       <input type="range" min="0" max="1000" step="1" id="people-count-id">
     </div>
     <button class="submit-btn">Поиск</button>
+
+    <ul class="people-list"></ul>
   </div>
-  <ul></ul>
+  
   <script src="./js/jquery-3.6.0.js"></script>
   <script type="text/javascript">
 

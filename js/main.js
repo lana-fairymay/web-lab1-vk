@@ -34,7 +34,7 @@ const loadPeople = (params) => {
       birth_day:birth_day,
       birth_month:birth_month,
       fields: "photo_100,bdate,online",
-      online: true,
+      // online: true,
       // sex: status,
       // hometown: city,
       v: "5.130"
