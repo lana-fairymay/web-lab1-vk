@@ -1,5 +1,6 @@
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -120,6 +121,7 @@ select {
 }
 
 .people-list {
+  width: 90%;
 }
 
 .people-list li {
