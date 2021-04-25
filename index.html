@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h2 class="head-name">Поиск людей в соц.сети Вконтакте</h2>
+  <div class="get">    
+    <div class="input-wrap city-input__wrap">
+      <label for="first-name">Введите имя</label>
+      <input type="text" size="20" id="first-name" name="name">
+    </div>
+    <div class="input-wrap data-radio">
+        <span>Дата рождения известна?</span>
+        <div class="data-radio__inputs">
+        <input type="radio" name="know" value="1" checked="checked" id="date-birth-true"><label for="date-birth-true">Да</label>
+        <input type="radio" name="know" value="0" id="date-birth-false"><label for="date-birth-false">Нет</label>
+        </div>
+    </div>
+
+    <div class="input-wrap birth_day-input">
+    <label for="birth_day">День рождения</label>
+    <select id="birth_day">
+      <option value="1">01</option>
+      <option value="2">02</option>  
+      <option value="3">03</option>      
+      <option value="4">04</option>      
+      <option value="5">05</option>
+      <option value="6">06</option>
+      <option value="7">07</option>  
+      <option value="8">08</option>      
+      <option value="9">09</option>      
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>  
+      <option value="13">13</option>      
+      <option value="14">14</option>      
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>  
+      <option value="18">18</option>      
+      <option value="19">19</option>      
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>  
+      <option value="23">23</option>      
+      <option value="24">24</option>      
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>  
+      <option value="28">28</option>      
+      <option value="29">29</option>      
+      <option value="30">30</option>
+      <option value="31">31</option>
+      </select>
+      </div>
+      <div class="input-wrap birth_day-input">
+        <label for="birth_month">День рождения</label>
+        <select id="birth_month">
+          <option value="1">Январь</option>
+          <option value="2">Февраль</option>  
+          <option value="3">Март</option>      
+          <option value="4">Апрель</option>      
+          <option value="5">Май</option>
+          <option value="6">Июнь</option>
+          <option value="7">Июль</option>  
+          <option value="8">Август</option>      
+          <option value="9">Сентябрь</option>      
+          <option value="10">Октябрь</option>
+          <option value="11">Ноябрь</option>
+          <option value="12">Декабрь</option>  
+          </select>
+          </div>
+    <div class="input-wrap people-count">
+      <label for="people-count-id">Выбрать кол-во людей</label>
+      <input type="range" min="0" max="1000" step="1" id="people-count-id">
+    </div>
+    <button class="submit-btn">Поиск</button>
+  </div>
+  <ul></ul>
+  <script src="./js/jquery-3.6.0.js"></script>
+  <script type="text/javascript">
+
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html> 
